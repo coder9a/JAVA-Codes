@@ -16,7 +16,7 @@ public class Percent
         int d = s.nextInt();
         System.out.println("Enter 5th subject marks");
         int e = s.nextInt();
-        float x = (a+b+c+d+d+e)/5;
+        float x = (a+b+c+d+d+e)/5.0f;
         System.out.println("Percentage is " + x);
 
     }
